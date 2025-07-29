@@ -59,3 +59,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Setup for dev
+- Install Xampp for Windows
+- Setup environment variables for `xampp\php\`, 'xampp\apache\bin\`, `xampp\apache\lib\' and `xampp\perl\bin\` and `xampp\perl\lib`
+- Follow **Composer** command-line installation instructions at [Composer](https://getcomposer.org/download)
+- Open terminal in `xampp\htdocs`
+- Run command `git clone {this repo}`
+
+## Clean install
+- Complete steps for **Setup for dev**, except the last two 
+- Open terminal in `xampp\htdocs`
+- Run command `php composer.phar create-project laravel/laravel sitio`
+- Open terminal in new folder (e.g. Desktop)
+- Run command `git clone {this repo}`
+- Copy files from repo to `sitio` as needed.
